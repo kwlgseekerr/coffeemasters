@@ -1,0 +1,304 @@
+
+.navbar{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: #412315;
+    color: white;
+    margin: -8px; 
+
+}
+.coffeestyle{
+grid-column: 3/6;
+padding-left: 130px ;
+font-size: large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #eef0a0;
+}
+.logo{
+    grid-column: 3;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+
+.container{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    justify-content: center;
+    gap: 45px
+}
+
+.items-container {
+    border-style: solid;
+    border-color: #eee1d5ed;
+    background-color: #eee1d5;
+    display: grid;
+    grid-column: 1 / span 2; /* Adjusted grid column span */
+    grid-row: 1 / span 3; /* Adjusted grid row span */
+    border-radius: 1rem;
+    box-shadow: 1px 1px 40px 10px rgb(168, 168, 168);
+}
+.border1{
+    display: grid;
+    grid-template-columns: 27% 25% 20% 18%;
+    grid-template-rows: 20% 20% 20% ;
+    border-bottom: 1px solid;
+    color: #e6c2a1;
+}
+.h5drink{
+grid-column: 1;
+color: black;
+padding-left: -10px;
+}
+.h5price{
+    grid-column: 4/5;
+    color:black; 
+    padding-left: -40px;
+}
+.border1x-h6{
+    grid-column-end: 1;
+    color: #966b43;
+    padding: 0px 0px 0px 3px;
+}
+.border1-h6litefoam{
+    grid-column: 1/2;
+    padding: 0px 0px 0px 20px;
+    color: #966b43;
+}
+.title{
+    color: #412315;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.border2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    border-bottom: 1px solid;
+    color: #e6c2a1;
+    height: 130px;
+}
+.quantityh6{
+    grid-column-end: 1;
+    color: #966b43;
+    padding: 0px 0px 0px 3px; 
+}
+.cappuccinoh5{
+grid-column: 1;
+color: black;
+padding: 0px 0px 0px 15px;
+}
+.priceh5{
+    grid-column: 5;
+    color:rgb(0, 0, 0);
+}
+.litemilk{
+    margin-top: -10px;
+    grid-column: 1/2;
+    padding: 0px 0px 0px 20px;
+    color: #966b43;
+}
+.doubleespresso{
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: -10px;
+    padding: 0px 0px 0px 10px;
+    color: #966b43;
+}
+
+.border3{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-row:3 ;
+    color: #e6c2a1;
+}
+.croissant1x{
+    grid-column-end: 1;
+    color: #966b43;
+    padding: 0px 0px 0px 3px; 
+}
+.priceh5{
+    grid-column: 5;
+    color:black  
+}
+.croissant{
+grid-column: 1;
+color: black;
+padding: 0px 0px 0px 20px;
+}
+
+.butterh6{
+    margin-top: -5px;
+    grid-column: 1/2;
+    padding: 0px 0px 0px 23px;
+    color: #966b43;
+}
+
+
+
+
+
+
+
+.namecontainer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 10%;
+    border-style: solid;
+    border-color: #eee1d5ed;
+    background-color: #eee1d5;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    border-radius: 1rem;
+    box-shadow:1px 1px 40px 10px rgb(168, 168, 168);
+}
+
+.input{
+    grid-column:1/6 ;
+    grid-row: 3;
+    background-color: transparent;
+    border: 1px solid #7c4200;
+    border-radius: 25px 25px 25px 25px; 
+    padding: 10px; 
+    
+
+}
+.placeholder{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    margin-top: 37px;
+    background-color: #eee1d5;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    height: 20px;
+    
+}
+.name{
+    color: #412315;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.text{
+    color: #412315;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.payment{
+    border-style: solid;
+    border-color: #eee1d5ed;
+    background-color: #eee1d5;
+    grid-column: 3/5;
+    grid-row: 3/5;
+    border-radius: 1rem;
+    box-shadow:1px 1px 40px 10px rgb(168, 168, 168);
+}
+.payment{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    gap: 10px;
+}
+.cardinput{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-color: transparent;
+    border: 1px solid #7c4200;
+    border-radius: 25px 25px 25px 25px; 
+    padding: 10px; 
+}
+.pwdinput{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: transparent;
+    border: 1px solid #7c4200;
+    border-radius: 25px 25px 25px 25px; 
+    padding: 10px; 
+}
+.placeholder1{
+    grid-column: 2/4;
+    grid-row: 2;
+    margin-top: -10px;
+    background-color: #eee1d5;
+    height: 20px;
+
+}
+.placeholder2{
+    grid-column: 2/4;
+    grid-row:4;
+    margin-top: -10px;
+    background-color: #eee1d5;
+    height: 20px;
+}
+.billcontainer{
+    display: grid;
+    grid-template-columns: 20% 20% 10%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20%;
+    grid-column: 2/4;
+    grid-row: 5/6;
+}
+.tax{
+    grid-column: 1;
+    grid-row-end: 5;
+}
+.total{
+    grid-column: 1;
+    grid-row-start: 7;
+    font-weight: bolder;
+}
+.subnum{
+    grid-column: 3;
+}
+.taxnum{
+    grid-column: 3;
+    grid-row-end: 5;
+}
+.totalnumb{
+    grid-column: 3;
+    grid-row-end: 8;
+    font-weight: bold;
+}
+
+
+
+
+
+.butcon{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+}
+.buttoncontainer {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 10%;
+    grid-column: 1/4;
+    background-color: #deb993; 
+    border: 1px solid #deb993; 
+    padding: 10px 20px; 
+    margin-bottom: 60px;
+    border-radius: 30px;
+    
+}
+.button{
+    grid-column: 3/6;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.button:hover {
+    background-color: #915214; 
+    color: #fff; 
+    cursor: pointer;
+}
+.buttoncontainer:hover{
+    background-color: #915214; 
+    cursor: pointer;
+}
